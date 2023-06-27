@@ -9,8 +9,6 @@ inputBtn.addEventListener("click", function () {
     renderLeads()
 });
 
-
-
 function renderLeads() {
     let listItems = ""
     for (let i = 0; i < myLeads.length; i++) {
@@ -22,8 +20,7 @@ function renderLeads() {
            </a>
         </li>`
     }
-    
+
     ulEl.innerHTML = listItems
 }
-
 
