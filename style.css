@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -21,4 +23,17 @@ button {
    color: #fff;
    padding: 10px 20px;
    font-weight: bold;
+}
+
+ul {
+   list-style-type: none;
+   margin-top: 10px;
+}
+
+li {
+   margin-top: 5px;
+}
+
+a {
+   color: #5f9341;
 }
