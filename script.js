@@ -10,20 +10,6 @@ if (leadsFromLocalStorage) {
     renderLeads()
 }
 
-deleteBtn.addEventListener("dblclick", function() {
-  localStorage.clear()
-  myLeads=[]
-  renderLeads()
-})
-
-
-inputBtn.addEventListener("click", function () {
-	myLeads.push(inputEl.value);
-    inputEl.value = ""
-    localStorage.setItem("myLeads", JSON.stringify(myLeads))
-    renderLeads()
-});
-
 function renderLeads() {
     let listItems = ""
     for (let i = 0; i < myLeads.length; i++) {
@@ -38,6 +24,22 @@ function renderLeads() {
 
     ulEl.innerHTML = listItems
 }
+
+deleteBtn.addEventListener("dblclick", function() {
+  localStorage.clear()
+  myLeads=[]
+  renderLeads()
+})
+
+
+inputBtn.addEventListener("click", function () {
+	myLeads.push(inputEl.value);
+    inputEl.value = ""
+    localStorage.setItem("myLeads", JSON.stringify(myLeads))
+    renderLeads()
+});
+
+
 
 
 
