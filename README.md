@@ -1,6 +1,7 @@
 # Chrome-Extension
 
 
+
 > Using HTML, CSS. JavaScript
 
 ## Live Demo
@@ -18,7 +19,7 @@ To get a local copy up follow these simple example steps.
 
 1. Clone this repository or download the Zip folder:
 
-**``git clone ``**
+**``git clone https://github.com/HanningtoneM/Chrome-Extension.git``**
 
 2. Navigate to the location of the folder in your machine:
 
