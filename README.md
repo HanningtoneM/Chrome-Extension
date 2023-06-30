@@ -1,6 +1,6 @@
 # Chrome-Extension
 
-
+A Chrome extension that allows users to save tabs and store them in local storage for later use
 
 > Using HTML, CSS. JavaScript
 
